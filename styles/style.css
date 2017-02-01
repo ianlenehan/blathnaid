@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Raleway|Sacramento');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fcf5f2;
+}
+
+.details-section {
+  flex: 1;
+  /*background-color: black;*/
+  height: 100%;
+  padding-left: 25px;
+  /*color: white;*/
+  color: black;
+}
+
+.right {
+  flex: 1;
+  height: 100%;
+}
+
+.title {
+  padding-top: 10px;
+  /*padding-bottom: 50px;*/
+  font-family: 'Sacramento', cursive;
+  /*color: rgb(235, 244, 255);*/
+  font-size: 2.8em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blurb {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 15px;
+}
+
+.blurb-header {
+  font-weight: bold;
+}
+
+.flower-container {
+  padding-bottom: 8em;
+  margin: -2em 0 -3em;
+  overflow: hidden;
+  flex: 3;
+}
+
+.flower {
+  position: relative;
+  display: block;
+  height: 14em;
+  width: 50vw;
+  margin: 5em auto 4.25em;
+  font-size: 32px;
+  transition: all 0.2s ease-out;
+  animation-name: rotate-flower;
+  animation-duration: 4s;
+  animation-timing-function: ease-out;
+}
+
+.petal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0!important;
+  animation: linear 2s forwards;
+  background: rgba(121,103,158,0.5);
+  animation-name: show-petal;
+  display: flex;
+  height: 6em;
+  width: 6em;
+  border-radius: 100% 0;
+  margin-top: -6em;
+  margin-left: 0em;
+  transform-origin: 0 100% 0;
+  align-items: center;
+  justify-content: center;
+}
+
+/*.petal-pluck {
+  animation-name: pluck-flower;
+  animation-delay: 0.2s;
+  animation-duration: 0.5s;
+  opacity: 1 !important;
+}*/
+
+.label {
+  opacity: 0;
+  transform: rotate(-45deg);
+}
+
+#education {
+  animation-delay: 0.2s;
+}
+
+#experience {
+  animation-delay: 0.4s;
+}
+
+#passions {
+  animation-delay: 0.6s;
+}
+
+#achievements {
+  animation-delay: 0.8s;
+}
+
+#roots {
+  animation-delay: 1s;
+}
+
+#interests {
+  animation-delay: 1.2s;
+}
+
+#achievements2 {
+  animation-delay: 1.4s;
+}
+
+#passions2 {
+  animation-delay: 1.6s;
+}
+
+.flower-container #education {
+  transform: rotate(0deg);
+}
+
+.flower-container #experience {
+  transform: rotate(45deg);
+}
+
+.flower-container #passions {
+  transform: rotate(90deg);
+}
+
+.flower-container #achievements {
+  transform: rotate(135deg);
+}
+
+.flower-container #roots {
+  transform: rotate(180deg);
+}
+
+.flower-container #interests {
+  transform: rotate(225deg);
+}
+
+.flower-container #achievements2 {
+  transform: rotate(270deg);
+}
+
+.flower-container #passions2 {
+  transform: rotate(315deg);
+}
+
+.change-colour {
+  background: rgba(121,103,158,1);
+}
+
+@media (max-width: 930px) {
+  .flower-container .flower {
+    font-size:18px
+  }
+}
+
+@media (max-width: 560px) {
+  .flower-container .flower {
+    font-size:14px
+  }
+}
+
+@media (max-width: 390px) {
+  .flower-container .flower {
+    font-size:12px
+  }
+}
+
+@keyframes show-petal {
+  0% { opacity: 0 }
+  100% { opacity: 0.7 }
+}
+
+@keyframes rotate-flower {
+  0% { transform : rotate(0); }
+  100% { transform : rotate(90deg); }
+}
+
+/*@keyframes pluck-flower {
+  100% { transform : rotate(45deg); }
+}*/
