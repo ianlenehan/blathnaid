@@ -5,16 +5,37 @@
   padding: 0;
 }
 
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-bottom: 10px;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
 body {
   background: #fcf5f2;
 }
 
+.company {
+  display: block;
+  font-weight: bold;
+}
+
+.job {
+  display: block;
+  font-size: 14px;
+}
+
 .details-section {
   flex: 1;
-  /*background-color: black;*/
   height: 100%;
   padding-left: 25px;
-  /*color: white;*/
   color: black;
 }
 
@@ -88,79 +109,72 @@ body {
   justify-content: center;
 }
 
-/*.petal-pluck {
-  animation-name: pluck-flower;
-  animation-delay: 0.2s;
-  animation-duration: 0.5s;
-  opacity: 1 !important;
-}*/
-
 .label {
   opacity: 0;
   transform: rotate(-45deg);
 }
 
-#education {
+#experience {
   animation-delay: 0.2s;
 }
 
-#experience {
+#associations {
   animation-delay: 0.4s;
 }
 
-#passions {
+#personal {
   animation-delay: 0.6s;
 }
 
-#achievements {
+#professional {
   animation-delay: 0.8s;
 }
 
-#roots {
+#passions {
   animation-delay: 1s;
 }
 
-#interests {
+#education {
   animation-delay: 1.2s;
 }
 
-#achievements2 {
+#achievements {
   animation-delay: 1.4s;
 }
 
-#passions2 {
+#me {
   animation-delay: 1.6s;
 }
 
-.flower-container #education {
+.flower-container #experience {
   transform: rotate(0deg);
 }
 
-.flower-container #experience {
+.flower-container #associations {
   transform: rotate(45deg);
 }
 
-.flower-container #passions {
+.flower-container #personal {
   transform: rotate(90deg);
 }
 
-.flower-container #achievements {
+.flower-container #professional {
   transform: rotate(135deg);
 }
 
-.flower-container #roots {
+.flower-container #passions {
   transform: rotate(180deg);
 }
 
-.flower-container #interests {
+.flower-container #education {
   transform: rotate(225deg);
 }
 
-.flower-container #achievements2 {
+.flower-container #achievements {
   transform: rotate(270deg);
 }
 
-.flower-container #passions2 {
+.flower-container #me {
   transform: rotate(315deg);
 }
 
@@ -195,7 +209,3 @@ body {
   0% { transform : rotate(0); }
   100% { transform : rotate(90deg); }
 }
-
-/*@keyframes pluck-flower {
-  100% { transform : rotate(45deg); }
-}*/
