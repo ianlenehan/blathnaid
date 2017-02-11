@@ -43,8 +43,8 @@ var blurbs = {
     "blurb-content": "<ul><li>Issued the largest ever triple B rated A$ corporate bond</li><li>Awarded AGL Corporate Employee of the Year 2012</li><li>Awarded Secondary Market Equity Raising of the Year in the Capital CFO Awards 2012</li><li>Nominated for Treasury Team of the Year in the Capital CFO Awards 2012</li><li>Placed in the Top 5 in Ireland at my sitting of the CIMA Financial Accounting and Management Accounting exams respectively (out of approximately 200 students)</li></ul>",
   },
   associations: {
-    "blurb-header": "Associations",
-    "blurb-content": "<p>Member of: the FTA’s 2009 Congress Steering Committee, the FTA’s State Committee, with specific responsibility for Women in Treasury.</p><p>Supporter of : WWF Australia, RSPCA Australia, World Vision, The David Sheldrick Wildlife Trust, Orangutan Foundation International.</p>",
+    "blurb-header": "Memberships & Associations",
+    "blurb-content": "<p>Member of the FTA’s State Committee, with specific responsibility for Women in Treasury. Member of the FTA’s 2009 Congress Steering Committee.</p><p>Member of AGL’s Corporate Citizenship Program which manages AGL’s employee giving, volunteering and fundraising events including strategic partnerships with community organisations.</p><p>Supporter of WWF Australia, RSPCA Australia, World Vision, The David Sheldrick Wildlife Trust, Orangutan Foundation International.</p>",
   },
 }
 
