@@ -44,7 +44,7 @@ var blurbs = {
   },
   associations: {
     "blurb-header": "Memberships & Associations",
-    "blurb-content": "<p>Member of the FTA’s State Committee, with specific responsibility for Women in Treasury. Member of the FTA’s 2009 Congress Steering Committee.</p><p>Member of AGL’s Corporate Citizenship Program which manages AGL’s employee giving, volunteering and fundraising events including strategic partnerships with community organisations.</p><p>Supporter of WWF Australia, RSPCA Australia, World Vision, The David Sheldrick Wildlife Trust, Orangutan Foundation International.</p>",
+    "blurb-content": "<p>Member of the FTA’s State Committee, with specific responsibility for Women in Treasury. Member of the FTA’s 2009 Congress Steering Committee.</p><p>Member of AGL’s Superannuation Committee. Member of AGL’s Corporate Citizenship Program which manages AGL’s employee giving, volunteering and fundraising events including strategic partnerships with community organisations.</p><p>Supporter of WWF Australia, RSPCA Australia, World Vision, The David Sheldrick Wildlife Trust, Orangutan Foundation International.</p>",
   },
 }
 
