@@ -28,7 +28,7 @@ var blurbs = {
   },
   professional: {
     "blurb-header": "Professional Interests",
-    "blurb-content": "<p>Toastmasters, where I can improve my presentation skills while also meeting people from other walks of life.</p></p>The world of possibilities that Blockchain offers really excites me and I have tried to educate myself (really just scratching the surface) of this world through conferences, educational courses and Meetups.</p>",
+    "blurb-content": "<p>Toastmasters, where I can improve my presentation skills while also meeting people from other walks of life.</p><p>The world of possibilities that Blockchain offers really excites me and I have tried to educate myself (really just scratching the surface) of this world through conferences, educational courses and Meetups.</p>",
   },
   passions: {
     "blurb-header": "Passions",
@@ -40,7 +40,7 @@ var blurbs = {
   },
   achievements: {
     "blurb-header": "Achievements",
-    "blurb-content": "<ul><li>Issued the largest ever triple B rated A$ corporate bond</li><li>Awarded AGL Corporate Employee of the Year 2012</li><li>Awarded Secondary Market Equity Raising of the Year in the Capital CFO Awards 2012</li><li>Nominated for Treasury Team of the Year in the Capital CFO Awards 2012</li><li>Placed in the Top 5 in Ireland at my sitting of the CIMA Financial Accounting and Management Accounting exams respectively (out of approximately 200 students)</li></ul>",
+    "blurb-content": "<ul><li>Issued the largest ever triple B rated A$ corporate bond</li><li>Expanded bank financing process to include an Australian market first lender code of conduct questionnaire</li><li>Awarded AGL Corporate Employee of the Year 2012</li><li>Awarded Secondary Market Equity Raising of the Year in the Capital CFO Awards 2012</li><li>Nominated for Treasury Team of the Year in the Capital CFO Awards 2012</li><li>Placed in the Top 5 in Ireland at my sitting of the CIMA Financial Accounting and Management Accounting exams respectively (out of approximately 200 students)</li></ul>",
   },
   associations: {
     "blurb-header": "Memberships & Associations",
