@@ -40,11 +40,11 @@ var blurbs = {
   },
   achievements: {
     "blurb-header": "Achievements",
-    "blurb-content": "<ul><li>Issued the largest ever triple B rated A$ corporate bond</li><li>Expanded bank financing process to include an Australian market first lender code of conduct questionnaire</li><li>Awarded AGL Corporate Employee of the Year 2012</li><li>Awarded Secondary Market Equity Raising of the Year in the Capital CFO Awards 2012</li><li>Nominated for Treasury Team of the Year in the Capital CFO Awards 2012</li><li>Placed in the Top 5 in Ireland at my sitting of the CIMA Financial Accounting and Management Accounting exams respectively (out of approximately 200 students)</li></ul>",
+    "blurb-content": "<ul><li>Issued the largest ever triple B rated A$ corporate bond</li><li>Expanded bank financing process to include an Australian market first Lender Code of Conduct questionnaire</li><li>Awarded AGL Corporate Employee of the Year 2012</li><li>Awarded Secondary Market Equity Raising of the Year in the Capital CFO Awards 2012</li><li>Nominated for Treasury Team of the Year in the Capital CFO Awards 2012</li><li>Placed in the Top 5 in Ireland at my sitting of the CIMA Financial Accounting and Management Accounting exams respectively (out of approximately 200 students)</li></ul>",
   },
   associations: {
     "blurb-header": "Memberships & Associations",
-    "blurb-content": "<p>Member of the FTA’s State Committee, with specific responsibility for Women in Treasury. Member of the FTA’s 2009 Congress Steering Committee.</p><p>Member of AGL’s Superannuation Committee. Member of AGL’s Corporate Citizenship Program which manages AGL’s employee giving, volunteering and fundraising events including strategic partnerships with community organisations.</p><p>Supporter of WWF Australia, RSPCA Australia, World Vision, The David Sheldrick Wildlife Trust, Orangutan Foundation International.</p>",
+    "blurb-content": "<p>Member of the FTA’s State Committee, with specific responsibility for Women in Treasury. Member of the FTA’s 2009 Congress Steering Committee. Member of Women In Sustainable Finance.</p><p>Member of the following AGL committees: Superannuation, Health Safety Environment Wellbeing, Rehabilitation and Transition Steering Committee, as well as the Corporate Citizenship Program, which manages AGL’s employee giving, volunteering and fundraising events including strategic partnerships with community organisations.</p><p>Governor of WWF Australia. Supporter of RSPCA Australia, World Vision, The David Sheldrick Wildlife Trust, Orangutan Foundation International.</p>",
   },
 }
 
