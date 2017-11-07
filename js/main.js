@@ -16,7 +16,7 @@ var changeBlurbText = function(topic) {
 var blurbs = {
   me: {
     "blurb-header": "Me",
-    "blurb-content": "<p>I am an insatiably curious person and find myself constantly asking “but why?”. That sense of curiosity brought me to Australia from Ireland over twelve years ago, where I found the day to day lifestyle better than any holiday. In saying that, I do feel a sense of isolation here sometimes and have a long list of travel destinations that I keep adding to the bucket list.</p><p>If I had to describe myself, I would say…passionate, principled, authentic, reliable, considerate, driven, curious, challenging.</p><p>Bláthnaid is pronounced <i><b>BLAW</b>nid</i>, and means ‘Little Flower’.</p>"
+    "blurb-content": "<p>I am an insatiably curious person. That sense of curiosity brought me to Australia from Ireland over twelve years ago, where I found the day to day lifestyle better than any holiday. In saying that, I do feel a sense of isolation here sometimes and have a long list of travel destinations that I keep adding to the bucket list.</p><p>If I had to describe myself, I would say…passionate, principled, authentic, reliable, considerate, driven, curious, challenging.</p><p>Bláthnaid is pronounced <i><b>BLAW</b>nid</i>, and means ‘Little Flower’.</p>"
   },
   education: {
     "blurb-header": "Education",
