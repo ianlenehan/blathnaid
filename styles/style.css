@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Raleway|Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Raleway|Sacramento|Parisienne");
 
 * {
   margin: 0;
@@ -7,7 +7,6 @@
 
 p {
   margin-bottom: 15px;
-  color: rgba(0, 0, 0, 0.7);
 }
 
 ul {
@@ -17,11 +16,11 @@ ul {
 
 li {
   margin-bottom: 10px;
-  color: rgba(0, 0, 0, 0.7);
 }
 
 body {
-  background: #fcf5f2;
+  background-color: #ecf0f1;
+  color: #4b6584;
 }
 
 .company {
@@ -31,15 +30,14 @@ body {
 
 .job {
   display: block;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.7);
+  /* font-size: 14px; */
 }
 
 .details-section {
   flex: 1;
   height: 100%;
-  padding-left: 25px;
-  color: black;
+  padding-left: 50px;
+  margin-top: 50px;
 }
 
 .right {
@@ -47,37 +45,41 @@ body {
   height: 100%;
 }
 
+.header {
+  background-color: #4b6584;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
 .title {
   padding-top: 10px;
-  /*padding-bottom: 50px;*/
-  font-family: "Sacramento", cursive;
-  /*color: rgb(235, 244, 255);*/
+  font-family: "Parisienne", cursive;
   font-size: 2.8em;
   font-weight: lighter;
   text-align: center;
+  color: #ecf0f1;
+  padding: 10px;
 }
 
 .container {
-  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .blurb {
   font-family: "Raleway", sans-serif;
   padding-top: 15px;
+  max-width: 400px;
 }
 
 .blurb-header {
-  font-weight: bold;
+  font-family: "Parisienne", cursive;
+  font-size: 2.2em;
 }
 
 .flower-container {
   padding-bottom: 8em;
   margin: -2em 0 -3em;
   overflow: hidden;
-  flex: 3;
 }
 
 .flower {
@@ -97,9 +99,9 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  opacity: 0 !important;
+  opacity: 0;
   animation: linear 2s forwards;
-  background: rgba(121, 103, 158, 0.5);
+  background-color: rgba(121, 103, 158, 0.5);
   animation-name: show-petal;
   display: flex;
   height: 6em;
@@ -110,6 +112,13 @@ body {
   transform-origin: 0 100% 0;
   align-items: center;
   justify-content: center;
+  transition: box-shadow 0.5s ease;
+}
+
+.petal:hover {
+  transition: box-shadow 0.5s ease;
+  box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .label {
@@ -119,34 +128,42 @@ body {
 
 #experience {
   animation-delay: 0.2s;
+  background-color: #26de81;
 }
 
 #associations {
   animation-delay: 0.4s;
+  background-color: #fed330;
 }
 
 #personal {
   animation-delay: 0.6s;
+  background-color: #fd9644;
 }
 
 #professional {
   animation-delay: 0.8s;
+  background-color: #fc5c65;
 }
 
 #passions {
   animation-delay: 1s;
+  background-color: #a55eea;
 }
 
 #education {
   animation-delay: 1.2s;
+  background-color: #4b7bec;
 }
 
 #achievements {
   animation-delay: 1.4s;
+  background-color: #45aaf2;
 }
 
 #me {
   animation-delay: 1.6s;
+  background-color: #2bcbba;
 }
 
 .flower-container #experience {
@@ -181,10 +198,6 @@ body {
   transform: rotate(315deg);
 }
 
-.change-colour {
-  background: rgba(121, 103, 158, 1);
-}
-
 @media (max-width: 930px) {
   .flower-container .flower {
     font-size: 18px;
@@ -214,9 +227,9 @@ body {
 
 @keyframes rotate-flower {
   0% {
-    transform: rotate(0);
+    transform: rotate(-90deg);
   }
   100% {
-    transform: rotate(90deg);
+    transform: rotate(0deg);
   }
 }
