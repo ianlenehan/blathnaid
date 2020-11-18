@@ -23,6 +23,29 @@ body {
   color: #4b6584;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  bottom: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+footer i {
+  font-size: 20px;
+  background-color: #4b6584;
+  padding: 4px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 5px;
+}
+
 .company {
   display: block;
   font-weight: bold;
@@ -30,13 +53,12 @@ body {
 
 .job {
   display: block;
-  /* font-size: 14px; */
 }
 
 .details-section {
   flex: 1;
   height: 100%;
-  padding-left: 50px;
+  margin-left: 50px;
   margin-top: 50px;
 }
 
@@ -68,12 +90,17 @@ body {
 .blurb {
   font-family: "Raleway", sans-serif;
   padding-top: 15px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .blurb-header {
   font-family: "Parisienne", cursive;
   font-size: 2.2em;
+  padding-left: 3px;
+}
+
+.blurb-content p {
+  line-height: 22px;
 }
 
 .flower-container {
